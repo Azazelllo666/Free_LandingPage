@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../fonts/Gilroy-Bold.ttf');
+    }
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('../fonts/Gilroy-Medium.ttf');
+    }
+
+html {
+    font-family: 'Gilroy-Medium';
+}
+
+.nav-bar {
+    text-align: center;
+    list-style-type: none;
+    margin: 33px auto 32px auto;
+    font-family: 'Gilroy-Bold';
+}
+
+nav {
+    background-color: white;
+    padding-top: 5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/* TODO Сделать так, чтобы при якоре не закрывался текст (виноват тпаддинг) */
+
+li {
+    display: inline;
+    margin-right: 150px;
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+a {
+    color: #828282;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover{
+    font-weight: 900;
+    color: black;
+}
+
+hr {
+    color: #828282;
+    width: 985px;
+    margin: 0 auto 40px auto;
+}
+
+.section-about {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.section-about__title {
+    width: 985px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 54px;
+}
+
+.section-about__title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Gilroy-Bold';
+}
+
+.section-about__title__about {
+    font-size: 18px;
+}
+
+.section-about__title__lang {
+    font-size: 16px;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    font-family: 'Gilroy-Bold';
+}
+
+.section-about__title__lang strong {
+    color: #828282;
+}
+
+.section-photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 105px;
+}
+
+.section-about-me {
+    background-color: #F6F6F6;
+    color: black;
+    padding: 126px 0 101px 0;
+    margin-bottom: 97px;
+}
+
+.section-about-me h2 {
+    font-size: 34px;
+    margin-bottom: 18px;
+    font-family: 'Gilroy-Bold';
+}
+
+.section-about-me__box {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;    
+}
+
+.section-about-me__box p {
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+.section-about-me__box p:last-child {
+    margin-bottom: 0px;
+}
+
+.section-skills__programs {    
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px auto;
+}
+
+.section-skills__programs__box-1, .section-skills__programs__box-2, .section-skills__programs__box-3 {
+    margin-right: 90px;
+}
+
+.section-skills__programs p {
+    color: #828282;
+    margin: 23px 0 41px 0;
+}
+
+.section-skills {
+    color: black;
+    margin-bottom: 113px;
+}
+
+.section-skills h2 {
+    font-size: 34px;
+    margin-bottom: 70px;
+    font-family: 'Gilroy-Bold';
+}
+
+.section-skills__title {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;    
+}
+
+.section-skills__title p {
+    margin-bottom: 83.5px;
+    font-size: 18px;
+}
+
+.section-portfolio {
+    background-color: #F6F6F6;
+    padding: 113px auto 96px auto;
+    text-align: center;
+    /* margin-bottom: 210px; */
+}
+
+.section-portfolio h2 {
+    font-size: 34px;
+    padding-top: 113px;
+    margin-bottom: 47px;
+    font-family: 'Gilroy-Bold';
+}
+
+.section-portfolio img {    
+    margin-bottom: 45px;
+}
+
+.section-portfolio p {
+    padding-bottom: 96px;
+}
+
+.contacts {
+    padding-top: 115px;
+    text-align: center;
+}
+
+.contacts__title h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-family: 'Gilroy-Bold';
+}
+
+.contacts__title p {
+    margin-bottom: 30px;    
+}
+
+.contacts__button {
+    background-color: black;
+    border: none;
+    color: white;
+    width: 250px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 85px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.contacts__icons img {
+    margin-right: 60px;
+    margin-bottom: 46px;
+}
+
+.contacts__icons img:last-child {
+    margin-right: 0px;
+}
+
+.contacts__p {
+    padding-bottom: 123px;
+    color: #828282;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
